@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title> Data visualisation </title>
+    <link rel="shortcut icon" href="lib/favicon/favicon.ico" type="image/x-icon">
+
+
+    <!-- Libraries -->
+
+    <!--Font Family Roboto - It's a more readable font -->
+    
+    <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
+    
+    <script src="lib/p5.min.js"></script>
+    <script src="lib/p5.dom.min.js"></script>
+
+    <link rel="stylesheet" href="style.css">
+    
+
+    <!-- Main sketch file -->
+    <script src="sketch.js"></script>
+
+    <!-- Main visualisation files -->
+    <script src="overview.js"></script>
+    <script src="workplaceDiversity.js"></script>
+    <script src="tourismUK.js"></script>
+    <script src="annualEarnings.js"></script>
+    <script src="popularSocialMedia.js"></script>
+    <!-- new -->
+    <script src="householdIncome.js"></script>
+    <script src="mobileMarket.js"></script>
+
+
+    <!-- Extra helpful scripts -->
+    <script src="helper-functions.js"></script>
+    <script src="gallery.js"></script>
+    <script src="pie-chart.js"></script>
+    <script src="donut-chart.js"></script>
+  </head>
+
+  <body>
+    <!-- Vertical Nav Bar -->
+    <div id="app" class="container">
+      <ul id="visuals-menu"></ul>
+    </div>
+
+    <!-- GRID Content -->
+    <div id="overview-container">
+      <div class="overview-grid">
+
+        <!-- LEFT COLUMN -->
+        <div class="left-grid">
+
+          <div class="chart-box" data-target="household-income">
+            <img src="assets/snapshot/household-income.png" alt="Household Income">
+          </div>
+
+          <div class="chart-box" data-target="social-media">
+            <img src="assets/snapshot/popular-social-media.png" alt="Popular Social Media">
+          </div>
+
+        </div>
+
+        
+        <!-- RIGHT COLUMN -->
+        <div class="right-grid">
+
+            <div class="chart-box" data-target="workplace-diversity">
+              <img src="assets/snapshot/workplace-diversity.png" alt="Workplace Diversity">
+            </div>
+
+          <div class="middle-row">
+
+          <div class="chart-box" data-target="tourism-uk">
+            <img src="assets/snapshot/tourism-uk.png" alt="Tourism UK">
+          </div>
+
+            <div class="chart-box" data-target="annual-earnings">
+              <img src="assets/snapshot/annual-earnings.png" alt="Annual Earnings">
+            </div>
+
+          </div>
+
+          <div class="chart-box" data-target="mobile-market">
+            <img src="assets/snapshot/mobile-market.png" alt="Mobile Market">
+          </div>
+
+        </div>
+
+      </div>
+    </div>
+
+
+      </div>
+    </div>
+
+  </body>
+</html>
