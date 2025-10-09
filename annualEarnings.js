@@ -149,21 +149,6 @@ function AnnualEarnings() {
         text(nfc(male), xGroup - 18, yBase - maleBar - 20);//text above
         text(nfc(female), xGroup + 18, yBase - femaleBar - 16);//text above
 
-        //EXTRA
-        //The initial idea was to rotate the text by 30 degrees 
-        // to make it more visible; however, following the accessible patterns,
-        // I kept the text straight. Nevertheless, 
-        // I leave my rotate code here to demonstrate that I could implement it.
-        // I learned in " https://editor.p5js.org/p5/sketches/Typography:_Text_Rotation".
-        
-        // push();
-        // let angle1 = radians(-30);
-        // translate(xGroup + 18, yBase - femaleBar - 16);
-        // rotate(angle1);
-        // text(nfc(female), 10, 6);//text above
-        // pop();
-
-
         //category label (age)
         textSize(16);
         textAlign(CENTER);
